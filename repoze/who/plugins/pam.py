@@ -1,5 +1,4 @@
 import PAM
-version = (0, 0, 1)
 
 class PamAuthenticatorPlugin(object):
     def __init__(self, service='passwd'):

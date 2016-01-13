@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
 import pkg_resources
-from repoze.who.plugins.pam import version
+
+version = (0,0,1)
 
 setup(name='repoze.who.plugins.pam',
       namespace_packages=['repoze', 'repoze.who', 'repoze.who.plugins'],
